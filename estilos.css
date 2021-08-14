@@ -1,0 +1,52 @@
+body {
+	background-color: #ddd;
+	font-size: 16px;
+}
+header {
+	background-color: green;
+	color: #fff;
+	padding: 30px;
+}
+h1 {
+	font_size: 200%;
+}
+nav {
+	background-color: yellow;
+	padding: 2%;
+	width: 50%;
+}
+nav a {
+	background-color: white;
+	padding: 8px;
+	border-
+}
+nav a :hover {
+	background-color: black;
+	color: #fff;
+}
+.grilla {
+	background-color: #ccc;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+}
+.grilla-item {
+	background-color: #999;
+	padding: 30px;
+}
+.grilla-item-1 {
+	background-color: yellowgreen;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+footer {
+	background-color: green;
+	color: #ffffff;
+	padding: 30px;
+	display: grid;
+	grid-template-columns: 20% 20% 30% 30%;
+}
